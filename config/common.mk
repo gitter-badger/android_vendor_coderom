@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/bin/50-hosts.sh:system/addon.d/50-hosts.sh \
     vendor/omni/prebuilt/bin/blacklist:system/addon.d/blacklist \
     
-    vendor/omni/prebuilt/app/NovaLauncher.apk:system/app
+    vendor/omni/prebuilt/app/NovaLauncher.apk:system/priv-app/NovaLauncher/NovaLauncher.apk
 
 # init.d support
 PRODUCT_COPY_FILES += \
