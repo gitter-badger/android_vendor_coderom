@@ -64,9 +64,9 @@ endif
 #PRODUCT_COPY_FILES += \
 #    vendor/omni/prebuilt/app/DashClock.apk:system/app/DashClock.apk
 
-# NovaLauncher 
-PRODUCT_COPY_FILES += \ 
-    vendor/omni/prebuilt/app/NovaLauncher.apk:system/priv-app/NovaLauncher/NovaLauncher.apk
+# NovaLauncher
+PRODUCT_COPY_FILES += \
+	vendor/omni/prebuilt/app/NovaLauncher.apk:system/priv-app/NovaLauncher/NovaLauncher.apk
 
 # Additional packages
 -include vendor/omni/config/packages.mk
