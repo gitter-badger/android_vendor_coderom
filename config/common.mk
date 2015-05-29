@@ -67,6 +67,10 @@ endif
 # NovaLauncher
 PRODUCT_COPY_FILES += \
 	vendor/omni/prebuilt/app/NovaLauncher.apk:system/priv-app/NovaLauncher/NovaLauncher.apk
+	
+# Shuttle
+PRODUCT_COPY_FILES += \
+	vendor/omni/prebuilt/app/Shuttle.apk:system/app/Shuttle/Shuttle.apk
 
 # Additional packages
 -include vendor/omni/config/packages.mk
