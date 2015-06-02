@@ -1,10 +1,10 @@
 #
 # This policy configuration will be used by all products that
-# inherit from Omni
+# inherit from CodeROM
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/omni/sepolicy
+    vendor/coderom/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     adbd.te \
